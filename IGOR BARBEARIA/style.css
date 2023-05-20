@@ -1,0 +1,315 @@
+header {
+    background: rgb(255, 255, 255);
+    padding: 0px 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+    font-family: 'Oswald', sans-serif
+}
+
+.caixa {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 45px
+}
+
+nav a:hover {
+    color: #000000;
+    font-weight: 900;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+    transition: 0.2s all;
+}
+
+.produtos li:hover {
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    transform: scale(1.03);
+    text-decoration: none;
+    font-size: 30px
+}
+
+.produtos a {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 30px
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preco_produto {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.produto_descricao {
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 35px 0 0;
+}
+
+.foot p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-family: Oswald sans-serif;
+
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+fieldset legend {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-top: px;
+}
+
+.radius-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+select {
+    width: 50%;
+    padding: 5px 10px 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #858585;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    transition: 0.2s all;
+}
+
+.enviar:hover {
+    background-color: rgb(212, 212, 212);
+    transform: scale(1.02);
+}
+
+::selection {
+    color: rgb(122, 122, 122);
+    outline: 2px solid #fff;
+}
+
+@media screen and (max-width: 480px) {
+   
+    .caixa,  .alinhar, .div, .foot {
+        width: auto;
+    }
+    .div {
+        margin: 10px;
+    }
+
+    .alinhar {
+        display: block;
+        margin-top: 2px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 2px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    img {
+        width: 80%;
+        margin: 10%;
+    }
+
+    .joao {
+        opacity: 0;
+        width: 0px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    footer  {
+        padding: 5px 0 0;
+    }
+
+    .foot img {
+        width: 10%;
+    }
+
+    .foot p {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 15px;
+    }
+
+    form {
+        margin: 0px;
+        width: 65%;
+    }
+
+    .enviar {
+        margin-left: 5px;
+        width: 350px;
+        padding: 10px 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #858585;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 10px;
+        transition: 0.2s all;
+    }
+
+    .radius-padrao {
+        margin: 0;
+    }
+
+    select {
+        width: 30%;
+        padding: 5px 10px 10px;
+    }
+
+    .produtos {
+        width: 940px;
+        margin: 0;
+        padding: 50px 0;
+    
+    }
+    
+    .produtos li {
+        display: block;
+        text-align: center;
+        width: 30%;
+        margin: 0 60px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5%;
+        transition: 0.2s all;
+        width: 250px;
+        margin-top: 10px;
+    }
+    
+    .produtos li:hover {
+        border-color: rgb(255, 255, 255);
+        color: #ffffff;
+        transform: scale(1.03);
+        text-decoration: none;
+        font-size: 30px
+    }
+    
+    .produtos a {
+        color: #ffffff;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 30px
+    }
+    
+    .produtos h2 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .preco_produto {
+        font-size: 23px;
+        font-weight: bold;
+        color: white;
+        margin-top: 10px;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .produto_descricao {
+        font-size: 18px;
+        color: white;
+    }
+
+    footer  {
+        padding: 5px 0 0;
+    }
+
+    .foot img {
+        width: 20%;
+    }
+    
+}
